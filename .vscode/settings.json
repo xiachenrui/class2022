@@ -1,0 +1,35 @@
+{
+    "python.defaultInterpreterPath": "${workspaceRoot}/conda/bin/python",
+    "files.watcherExclude": {
+        "**/test/**": true,
+        "**/train/**": true,
+        "**/validation/**": true,
+        "**/data/**": false,
+        "**/experiments/**": true,
+        "**/evaluation/results/raw/**": true,
+        "**/.snakemake/**": true,
+        "**/.slurm/**": true,
+        "**/.ipynb_checkpoints/**": true,
+        "**/.pytest_cache/**": true,
+        "**/.virtual_documents/**": true,
+        "**/__pycache__/**": true,
+        "**/*.deprecated/**": true,
+        "**/*.bak/**": true,
+        "**/conda/**": true
+    },
+    "files.exclude": {
+        "**/evaluation/results/raw/**": false,
+        "**/.snakemake/**": true,
+        "**/.ipynb_checkpoints/**": true,
+        "**/.pytest_cache/**": true,
+        "**/.virtual_documents/**": true,
+        "**/__pycache__/**": true,
+        "**/*.deprecated/**": true,
+        "**/*.bak/**": true,
+        "**/conda/**": true,
+        // "**/test/**": true,
+        // "**/train/**": true,
+        // "**/validation/**": true,
+    },
+    "jupyter.jupyterServerType": "local"
+}
